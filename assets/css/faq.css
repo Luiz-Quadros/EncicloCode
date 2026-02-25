@@ -1,0 +1,152 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(69, 41, 79, 1) 15%, rgba(87, 56, 92, 1) 60%);
+    height: 80px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+    padding: 5px 20px;
+}
+
+header h1 a {
+    font-size: 26px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+header a {
+    transition: opacity 0.5 ease;
+}
+
+header a:hover {
+    color: rgb(235, 235, 240);
+    transition: 0.3s all;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin-top: 7.3rem;
+}
+
+.search {
+    background: white;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    transform: rotateX(700deg);
+    position: relative;
+    left: 60px;
+}
+
+.menu-abas {
+    font-size: 15px;
+}
+
+.search input {
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    margin-left: 10px;
+    width: 350px;
+    height: 25px;
+}
+
+.search input::placeholder {
+    color: #45294f;
+}
+
+.fotoDePerfil {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px -10px 0;
+}
+
+.post-box-pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-box {
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 14px;
+    width: 45rem;
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 4px rgb(99, 98, 98);
+}
+
+.post-box:hover {
+    background: #eeeeee;
+}
+
+.titulo-faq-pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.a-faq {
+    color: #45294f;
+}
+
+.seta {
+    height: auto;
+}
+
+.accordion-item {
+    width: 55rem;
+    margin: 5px;
+}
+
+.accordion-item-pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-body {
+    background-color: #f4f4f4;
+    font-size: 0.95rem;
+    text-align: justify;
+}

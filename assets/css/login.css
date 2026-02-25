@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #45294f;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #45294f;
+  padding: 40px 40px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 350px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.login-container h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #45294f;
+}
+
+.login-container label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  color: #45294f;
+  font-weight: bold;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 7px;
+  background-color: #45294f;
+  color: white;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #3d2147;
+}
+
+.link a {
+  text-decoration: none;
+  color: #45294f;
+  font-size: small;
+  text-align: left;
+}
+
+.inscrevaSe {
+
+  color: #45294f;
+  display: flex;
+  margin-top: 0.8rem;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  color: #45294f;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+}
+
+.rodape {
+  font-size: 0.875rem;
+  display: flex;
+  white-space: nowrap;
+  overflow-x: auto;
+  background: #3d2147;
+  align-items: center;
+  justify-content: center;
+}
+
+.direitos,
+.foot a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.foot a:hover {
+  color: rgb(235, 235, 240);
+  transition: 0.3s all;
+}
+
+.register {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.8rem;
+  margin-top: -1rem;
+}
+
+span {
+  font-weight: bold;
+}

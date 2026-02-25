@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 110px;
+}
+
+body {
+    color: #ffffff;
+    background-color: rgb(228, 225, 225);
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(69, 41, 79, 1) 15%, rgba(87, 56, 92, 1) 60%);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.container {
+    flex: 1;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+.titulo-sobre {
+    text-align: center;
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 20px;
+    color: #45294f;
+}
+
+.card {
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgb(179, 175, 175);
+    margin-bottom: 30px;
+    background-color: #000000;
+}
+
+.equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.integrante {
+    background: rgb(228, 225, 225);
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #45294f;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.p_sobre {
+    margin-bottom: 15px;
+}
+
+.objetivos,
+.principios {
+    font-size: 1.3rem;
+}
+
+.p-id {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+strong {
+    color: #45294f;
+}
+
+.logo {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 14px;
+}
+
+.register {
+    font-size: 14px;
+}
+
+.inscrever_se {
+    border: 1px solid;
+    padding: 6px 10px;
+    border-radius: 15px;
+}
+
+.content {
+    background: linear-gradient(90deg, rgba(69, 41, 79, 1) 15%, rgba(87, 56, 92, 1) 60%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+.subtitulo {
+    font-size: 25px;
+}
+
+.comecar {
+    padding: 7px 12px;
+    border-radius: 10px;
+    background: rgb(108, 68, 134);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 7px;
+    transition: background-color 0.3s ease;
+}
+
+.comecar:hover {
+    transition: 0.3s all;
+    transform: scale(1.1);
+}
+
+.comecar:hover {
+    background-color: #684575;
+    color: #ffffff;
+}
+
+.card {
+    background: white;
+    color: black
+}
+
+.footer {
+    background: linear-gradient(90deg, rgba(69, 41, 79, 1) 15%, rgba(87, 56, 92, 1) 60%);
+    color: #ffffff;
+    height: 15vh;
+    font-size: 0.875rem;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot a {
+    color: white;
+    margin: 10px;
+}
+
+.direitos {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a:hover {
+    color: rgb(235, 235, 240);
+    transition: 0.3s all;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes img {
+    height: 27px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+.form-pai {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 6px;
+    color: #45294f;
+    font-weight: bold;
+}
+
+input {
+    width: 41rem;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #949393;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+textarea {
+    width: 41rem;
+    box-sizing: border-box;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+    border: 1px solid #949393;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 10rem;
+}
+
+button {
+    width: 41rem;
+    padding: 12px;
+    background-color: #45294f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #583066;
+    transition: 1s all;
+}
+ 

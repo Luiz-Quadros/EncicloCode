@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #45294f;
+}
+
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    max-width: 800px;
+    height: 90%;
+    max-height: 350px;
+    background-color: rgb(119, 103, 103);
+    border-radius: 15px;
+    padding: 0;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.esquerda {
+    width: 50%;
+    height: 100%;
+    background-color: #573464;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px
+}
+
+.card::after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.esquerda,
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+input {
+    width: 215px;
+    padding: 10px;
+    margin-bottom: 3px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    margin-top: 9px;
+    width: 120px;
+}
+
+.button-direita {
+    background-color: #45294f;
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.conec {
+    color: white;
+    border: 1.5px solid white;
+    margin-top: 10px;
+    padding: 5px 30px;
+    border-radius: 50px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.conec:hover {
+    transition: 0.3s all;
+    transform: scale(1.1);
+}
+
+.titled {
+    color: #45294f;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.titlee {
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+
+.titlee:hover {
+    color: rgb(235, 235, 240);
+    transition: 0.3s all;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+}
+
+.rodape {
+    font-size: 0.875rem;
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    background: #3d2147;
+    align-items: center;
+    justify-content: center;
+}
+
+.direitos,
+.foot a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.foot a:hover {
+    color: rgb(235, 235, 240);
+    transition: 0.3s all;
+}

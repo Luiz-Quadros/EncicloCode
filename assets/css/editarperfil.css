@@ -1,0 +1,266 @@
+
+
+body {
+    color: #ffffff;
+    background-color: rgb(228, 225, 225);
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(69, 41, 79, 1) 15%, rgba(87, 56, 92, 1) 60%);
+    height: 70px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+    padding: 5px 20px;
+}
+
+header h1 a {
+    font-size: 26px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+header a {
+    transition: opacity 0.5 ease;
+}
+
+header a:hover {
+    color: rgb(235, 235, 240);
+    transition: 0.3s all;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+.logo {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 14px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+header a:hover {
+    color: rgb(235, 235, 240);
+    transition: 0.3s all;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+.search {
+    background: white;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    transform: rotateX(700deg);
+    position: relative;
+    left: 60px;
+}
+
+.menu-abas {
+    font-size: 15px;
+}
+
+.search input {
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    margin-left: 10px;
+    width: 350px;
+    height: 25px;
+}
+
+.search input::placeholder {
+    color: #45294f;
+}
+
+.fotoDePerfil {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px -10px 0;
+}
+
+
+.profile-background {
+    background:#573464;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    width: 380px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 60vh;
+}
+
+.tela-fixa {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.username { 
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -1rem;
+    color: #341644;
+    text-align: center;
+}
+
+.descricao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.descricao label { 
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.descricao textarea {
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    height: 80px;
+}
+
+.btn-salvar {
+    background-color: #341644;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background-color 0.3s ease;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.redes-sociais img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.redes-sociais img:hover {
+  transform: scale(1.2);
+}
+
+.usuario-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.localizacao {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.localizacao img {
+  width: 20px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.descricao-box {
+  position: relative;
+  width: 100%;
+}
+
+.descricao-box textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  height: 80px;
+  background-color: #f9f9f9;
+}
+
+.pencil-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.pencil-icon:hover {
+  opacity: 1;
+}
+
+.fotoP{
+    width: 70px;
+    height: 70px;
+    margin-top: -2rem;
+}
