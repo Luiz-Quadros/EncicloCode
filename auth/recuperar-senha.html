@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/css/recuperar-senha.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="icon" href="../assets/img/favicon.svg">
+
+    <title>EncicloCode</title>
+
+</head>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('form');
+  const loginContainer = document.querySelector('.login-container');
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    loginContainer.innerHTML = `
+      <h2 style="color: #45294f; font-size:1.5rem;"> <a href="../auth/recuperar-senha.html" class="tit">Redefinição enviada!</a></h2>
+
+    `;
+  });
+});
+</script>
+
+<body>
+    <div class="container">
+        <div class="login-container">
+            <h2> <a class="tit" href="../index.html"> Esqueceu a senha? </a> </h2>
+            <form>
+                
+                <label for="usuario">E-mail</label>
+                <input type="email" id="E-mail" placeholder="Digite seu E-mail" required>
+                <button type="submit">Enviar redefinição de senha</button>
+            </form>
+        </div>
+    </div>
+    <footer class="rodape">
+        <div class="foot">
+            <p>©2025 EncicloCode</p>
+            <a href="../index.html#sobre">Sobre</a>
+            <a href="../index.html#contato">Contato</a>
+            <a href="">Política de Privacidade</a>
+            <a href="">Termos de Uso</a>
+            <a href="../pages/sidebar/faq.html">FAQ</a>
+        </div>
+    </footer>
+</body>
+
+</html>

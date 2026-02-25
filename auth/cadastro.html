@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="icon" href="../assets/img/favicon.svg">
+    
+    <title> EncicloCode </title>
+</head>
+
+ <script>
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.querySelector('.form');
+    const esquerda = document.querySelector('.esquerda');
+    const direita = document.querySelector('.direita');
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        esquerda.innerHTML = '<a href="../auth/cadastro.html" class="tit"><p class="agradecimento" style="color: white; font-size: 1rem;">Obrigado por se inscrever!</p></a>';
+        direita.innerHTML = '<p class="agradecimento" style="color: #45294f; font-size: 1rem;" justify-content: center;">Cadastro realizado com sucesso!</p>';
+    });
+});
+</script>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="esquerda">
+                <p> <a class="titlee" href="../index.html"> Já possui uma conta? </a> </p>
+                <a class="conec" href="login.html"> Conecte-se </a>
+            </div>
+            <div class="direita">
+                <p> <a class="titled" href="../index.html"> Inscreva-se </a> </p>
+                <form class="form">
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Nome de usuário" required>
+                    <input type="password" placeholder="Senha" required>
+                    <input type="password" placeholder="Confirme sua senha" required>
+                    <button type="submit" class="button-direita" required> Inscrever-se</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="rodape">
+        <div class="foot">
+            <p class="direitos">©2025 EncicloCode</p>
+            <a href="../index.html#sobre">Sobre</a>
+            <a href="../index.html#contato">Contato</a>
+            <a href="">Política de Privacidade</a>
+            <a href="">Termos de Uso</a>
+            <a href="../pages/sidebar/faq.html">FAQ</a>
+        </div>
+    </footer>
+</body>
+
+</html>

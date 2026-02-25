@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="../../assets/css/conteudo-javascript.css">
+    <link rel="icon" href="../../assets/img/favicon.svg">
+
+    <title>EncicloCode </title>
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="../../index.html">EncicloCode</a></h1>
+        <nav>
+            <a href="../explorar/introducao.html" class="menu-abas"> Explorar</a>
+            <a href="../categorias/conteudo-html.html" class="menu-abas"> Categorias</a>
+            <a href="../comunidade/comunidade-html.html" class="menu-abas"> Comunidades</a>
+        </nav>
+        <div class="search">
+            <img src="../../assets/img/pesquisar-lupa.svg" alt="icone-lupa" class="lupa"><input type="text"
+                placeholder="Pesquisar">
+        </div>
+        <img src="../../assets/img/perfil.svg" alt="icone-usuario" style="width: 50px; height: 50px;">
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="pag-text"><img src="../../assets/img/pagina-inicial.svg" alt="Página Inicial" class="home"> <a
+                    href="../../index.html"><span class="pag-inicial"> Página Inicial </span></a> </div>
+            <hr>
+            <h4> Linguagens</h4>
+            <a href="../categorias/conteudo-html.html">
+                <div class="menu-item"><img src="../../assets/img/html.svg" alt="HTML"> HTML</div>
+            </a>
+            <a href="../categorias/conteudo-css.html">
+                <div class="menu-item"><img src="../../assets/img/css.svg" alt="CSS"> CSS</div>
+            </a>
+            <a href="../categorias/conteudo-javascript.html">
+                <div class="selected-text"><img src="../../assets/img/js.svg" alt="JavaScript"> JavaScript</div>
+            </a>
+            <a href="../categorias/conteudo-python.html">
+                <div class="menu-item"><img src="../../assets/img/python.svg" alt="Python"> Python</div>
+            </a>
+
+            <hr>
+            <h4> Atividade</h4>
+            <a href="../sidebar/minhas-postagens.html">
+                <div class="menu-item"><img src="../../assets/img/postagens.svg" alt="Minhas Postagens"> Minhas
+                    Postagens</div>
+            </a>
+            <a href="../sidebar/favoritos.html">
+                <div class="menu-item"><img src="../../assets/img/favorito.svg" alt="Favoritos"> Favoritos</div>
+            </a>
+            <hr>
+            <h4> Informações Legais</h4>
+            <a href="../../index.html#sobre">
+                <div class="menu-item"><img src="../../assets/img/sobre.svg" alt="Sobre"> Sobre</div>
+            </a>
+            <a href="../../index.html#contato">
+                <div class="menu-item"><img src="../../assets/img/contato.svg" alt="Contato"> Contato</div>
+            </a>
+            <a href="#">
+                <div class="menu-item"><img src="../../assets/img/politica-de-privacidade.svg"
+                        alt="Política de Privacidade"> Política de Privacidade</div>
+            </a>
+            <a href="#">
+                <div class="menu-item"><img src="../../assets/img/termos.svg" alt="Termos de Uso"> Termos de Uso</div>
+            </a>
+            <a href="../sidebar/faq.html">
+                <div class="menu-item"><img src="../../assets/img/faq.svg" alt="FAQ"> FAQ</div>
+            </a>
+        </div>
+
+        <main>
+            <div class="post-box-pai">
+                <div class="post-box" data-num="1">
+                    <h3 id="teoria">Introdução ao JavaScript</h3>
+                    <p class="post-box-paragrafos">JavaScript é uma linguagem de programação de alto nível, criada
+                        originalmente por Brendan Eich em 1995. Ela é amplamente utilizada no desenvolvimento web, sendo
+                        essencial para tornar páginas e aplicações interativas no navegador, além de também ser usada no
+                        backend por meio do Node.js, em apps mobile, automação e muito mais.
+                        Sua principal característica é a versatilidade, o que torna o JavaScript uma das melhores opções
+                        tanto para iniciantes quanto para desenvolvedores que buscam criar aplicações modernas e
+                        dinâmicas.
+                    </p>
+                    <div class="recomendados-iframes">
+                        <iframe width="330" height="200"
+                            src="https://www.youtube.com/embed/YqSfq1LiGvw?si=3T4VsBvHbG6C6dFs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                            class="recomendados-iframes2"></iframe>
+                        <iframe width="330" height="200"
+                            src="https://www.youtube.com/embed/mo3fpbW_eTA?si=UnEqvWTLzf9JXKLC&amp;start=4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="recomendados-iframes2"></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="2">
+                    <h3 id="onde-escrever">Como instalar o JavaScript</h3>
+                    <p class="post-box-paragrafos">
+                        1 – Para começar a usar JavaScript (Node.js), siga os passos abaixo: <br>
+                        2 – Acesse o site oficial de downloads do Node.js: <a href="https://nodejs.org/pt/download" class="link-vscode">https://nodejs.org/pt/download</a> <br>
+                        3 - Escolha a versão compatível com seu sistema operacional (Windows, macOS ou Linux). <br>
+                        4 – Após instalar, abra o terminal (ou Prompt de Comando) e digite:
+                        node --version <br>
+                        Se aparecer a versão do Node, a instalação foi concluída com sucesso.
+                    </p>
+                    <div class="img-py">
+                        <img src="../../assets/img/js1.svg" alt="python" class="img-python">
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="3">
+                    <h3 id="tags">Sintaxe Básica</h3>
+                    <p class="post-box-paragrafos">A sintaxe é o conjunto de regras de escrita que o JavaScript usa para entender o código.
+                        Exemplo:
+                    </p>
+
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        let nome = "João Vitor"
+                        const dataDeNascimento = “14/08/2009”
+                      </pre>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-box-pai">
+                <div class="post-box" data-num="4">
+                    <h3 id="tags">Variáveis</h3>
+                    <p class="post-box-paragrafos">As variáveis são espaços na memória do computador. <br>
+                        Em JS existem 4 variações de como declarar uma variável, onde se utiliza-se o <br> padrão camelCase, entre elas estão: let, const, var e automaticamente. <br>
+                        let: pode mudar de valor; <br>
+                        const: não mudará de valor; <br>
+                        var: antiga, tem escopo de função e pode causar erros - má prática; <br>
+                        Automaticamente: cria variável global sem querer - má prática. <br>
+                        
+                        Exemplo:
+                    </p>
+
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        let a = 1
+                        const b = 2
+                        var c = 3
+                        d = 4
+                      </pre>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="5">
+                    <h3 id="atributos">Tipos de Dados</h3>
+                    <p class="post-box-paragrafos">Os principais tipos são: <br>
+                        String - texto ("Olá") <br>
+                        Number - números inteiros e decimais (3; -5; 7.43) <br>
+                        Boolean - verdadeiro ou falso (True; False) <br>
+                        Null - reapresenta um valor vazio intencionalmente. <br>
+                        Undefined - indefinido (variável declarada, mas sem atribuição de um valor)
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        let a = "Olá"
+                        let b = 3
+                        let c = false
+                        let d = null
+                        let e
+                      </pre>
+                    </div>
+
+                    </p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="6">
+                    <h3 id="imagens">Entrada e Saída de Dados</h3>
+                    <p class="post-box-paragrafos">A função console.log() mostra algo na tela. <br>
+                        A função prompt() recebe dados do usuário. <br>
+                        Exemplo:
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        let nome = prompt("Digite seu nome")
+                        console.log(nome)</pre>
+                    </div>
+
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="7">
+                    <h3 id="links">Estruturas Condicionais</h3>
+                    <p class="post-box-paragrafos">Em JavaScript, a instrução if... else é uma estrutura fundamental de controle de <br> 
+                        fluxo usada para executar diferentes blocos de código com base em uma condição específica. <br>
+                        Exemplo:
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        a = "10"
+ 
+                        if (a == "10") {
+                            console.log("É 10")
+                        } else {
+                            console.log("Não é 10")
+                        }</pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="8">
+                    <h3 id="comment">Laços de Repetição</h3>
+                    <p class="post-box-paragrafos">São usados para executar um bloco de código várias vezes. Entre os laços de repetição mais usados estão enquadrados o for e o while. <br>
+                        Exemplo com for:
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        for (let contador = 0; contador < 5; contador++) {
+                            console.log(contador)
+                        }
+                        </pre>
+                    </div>
+                    <p class="post-box-paragrafos">Exemplo com while:</p>
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        let contador = 0
+                        while (contador < 5) {
+                            console.log(contador)
+                            contador++
+                        }
+                      </pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="9">
+                    <h3 id="comment">Funções
+                    </h3>
+                    <p class="post-box-paragrafos">Servem para guardar blocos de código reutilizáveis. <br>
+                        Podem receber parâmetros e retornar valores. <br>
+                        Exemplo:
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        function saudacao() {
+                            console.log("Olá!")
+                            }
+                        saudacao()</pre>
+                    </div>
+                    <p class="post-box-paragrafos">Elas ajudam a organizar o código e evitar repetições.
+                    </p>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="rightbar">
+            <div class="numerador-pai">
+                <a href="#teoria">
+                    <h1 class="numerador">1</h1>
+                </a>
+                <a href="#onde-escrever">
+                    <h1 class="numerador">2</h1>
+                </a>
+                <a href="#estrutura">
+                    <h1 class="numerador">3</h1>
+                </a>
+                <a href="#tags">
+                    <h1 class="numerador">4</h1>
+                </a>
+                <a href="#atributos">
+                    <h1 class="numerador">5</h1>
+                </a>
+                <a href="#imagens">
+                    <h1 class="numerador">6</h1>
+                </a>
+                <a href="#links">
+                    <h1 class="numerador">7</h1>
+                </a>
+                <a href="#comment">
+                    <h1 class="numerador">8</h1>
+                </a>
+
+                <a href="#comment">
+                    <h1 class="numerador">9</h1>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

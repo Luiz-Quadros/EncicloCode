@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="../../assets/css/conteudo-css.css">
+    <link rel="icon" href="../../assets/img/favicon.svg">
+
+    <title>EncicloCode </title>
+
+</head> 
+
+<body>
+    <header>
+        <h1><a href="../../index.html">EncicloCode</a></h1>
+        <nav>
+            <a href="../explorar/introducao.html" class="menu-abas"> Explorar</a>
+            <a href="../categorias/conteudo-html.html" class="menu-abas"> Categorias</a>
+            <a href="../comunidade/comunidade-html.html" class="menu-abas"> Comunidades</a>
+        </nav>
+        <div class="search">
+            <img src="../../assets/img/pesquisar-lupa.svg" alt="icone-lupa" class="lupa"><input type="text"
+                placeholder="Pesquisar">
+        </div>
+        <img src="../../assets/img/perfil.svg" alt="icone-usuario" style="width: 50px; height: 50px;">
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="pag-text"><img src="../../assets/img/pagina-inicial.svg" alt="Página Inicial" class="home"> <a
+                    href="../../index.html"><span class="pag-inicial"> Página Inicial </span></a> </div>
+            <hr>
+            <h4> Linguagens</h4>
+            <a href="../categorias/conteudo-html.html">
+                <div class="menu-item"><img src="../../assets/img/html.svg" alt="HTML"> HTML</div>
+            </a>
+            <a href="../categorias/conteudo-css.html">
+                <div class="selected-text"><img src="../../assets/img/css.svg" alt="CSS"> CSS</div>
+            </a>
+            <a href="../categorias/conteudo-javascript.html">
+                <div class="menu-item"><img src="../../assets/img/js.svg" alt="JavaScript"> JavaScript</div>
+            </a>
+            <a href="../categorias/conteudo-python.html">
+                <div class="menu-item"><img src="../../assets/img/python.svg" alt="Python"> Python</div>
+            </a>
+
+            <hr>
+            <h4>Atividade</h4>
+            <a href="../sidebar/minhas-postagens.html">
+                <div class="menu-item"><img src="../../assets/img/postagens.svg" alt="Minhas Postagens"> Minhas
+                    Postagens</div>
+            </a>
+            <a href="../sidebar/favoritos.html">
+                <div class="menu-item"><img src="../../assets/img/favorito.svg" alt="Favoritos"> Favoritos</div>
+            </a>
+            <hr>
+            <h4> Informações Legais</h4>
+            <a href="../../index.html#sobre">
+                <div class="menu-item"><img src="../../assets/img/sobre.svg" alt="Sobre"> Sobre</div>
+            </a>
+            <a href="../../index.html#contato">
+                <div class="menu-item"><img src="../../assets/img/contato.svg" alt="Contato"> Contato</div>
+            </a>
+            <a href="#">
+                <div class="menu-item"><img src="../../assets/img/politica-de-privacidade.svg"
+                        alt="Política de Privacidade"> Política de Privacidade</div>
+            </a>
+            <a href="#">
+                <div class="menu-item"><img src="../../assets/img/termos.svg" alt="Termos de Uso"> Termos de Uso</div>
+            </a>
+            <a href="../sidebar/faq.html">
+                <div class="menu-item"><img src="../../assets/img/faq.svg" alt="FAQ"> FAQ</div>
+            </a>
+        </div>
+
+        <main>
+            <div class="post-box-pai">
+                <div class="post-box" data-num="1">
+                    <h3 id="teoria">Teoria do CSS</h3>
+                    <p class="post-box-paragrafos">O CSS (Cascading Style Sheets) é a linguagem usada para estilizar
+                        páginas HTML.<br>
+                        Com ele, podemos alterar cores, tamanhos, fontes, espaçamentos e posicionamentos dos
+                        elementos.<br>
+                        O HTML estrutura o conteúdo, e o CSS define como ele será exibido.<br>
+                        Vídeos Recomendados:
+                    </p>
+                    <div class="recomendados-iframes">
+                        <iframe width="330" height="200"
+                            src="https://www.youtube.com/embed/HtVRRHoASes?si=FyNga96XAWpYJSvx"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen 
+                            class="recomendados-iframes2"></iframe>
+                        <iframe width="330" height="200"
+                            src="https://www.youtube.com/embed/yjmhSn0j8ac?si=HYzSuA9PaktzzE7m"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                            class="recomendados-iframes2"></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="2">
+                    <h3 id="onde-escrever">Como usar CSS?</h3>
+                    <p class="post-box-paragrafos">Existem três formas principais de aplicar CSS em uma página:<br>
+                        Inline: diretamente dentro da tag HTML usando o atributo style.<br>
+                        Interno: dentro da tag <span class="tags">&lt;style&gt;</span> no <span
+                            class="tags">&lt;head&gt;.</span><br>
+                        Externo: em um arquivo separado .css, linkado com &lt;link rel="stylesheet"
+                        href="style.css"&gt;.<br> O método externo é o mais recomendado.
+                    </p>
+                    <div class="img-py">
+                        <img src="../../assets/img/css1.svg" alt="python" class="img-python">
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="3">
+                    <h3 id="estrutura">Seletores</h3>
+                    <p class="post-box-paragrafos">Seletores definem quais elementos o CSS vai
+                        estilizar.<br>Exemplos:<br>
+                        • Seletor de tag: p { color: blue; }<br>
+                        • Seletor de classe(Atributo class=”titulo”): .titulo { font-size: 20px; }<br>
+                        • Seletor de id(Atributo id=”principal”): #principal { background: gray; }<br>Também é possível
+                        combinar seletores para maior precisão.
+                    </p>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="4">
+                    <h3 id="tags">Cores</h3>
+                    <p class="post-box-paragrafos">O CSS permite usar cores de várias formas:<br>
+                        • Nome da cor: color: red;<br>
+                        • Código hexadecimal: color: #ff0000;<br>
+                        • RGB: color: rgb(255, 0, 0);<br>
+                        • RGBA (com transparência): color: rgba(255, 0, 0, 0.5);
+                    </p>
+
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        .exemplo{
+                            color: red;
+                            background-color: rgba(255, 0, 0, 0.5);
+                            border-color: #22222;
+                            caret-color: rgb(0, 255, 0);
+                        }
+                      </pre>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="5">
+                    <h3 id="atributos">Fontes e Texto</h3>
+                    <p class="post-box-paragrafos">Você pode alterar o tipo, tamanho, posição e cor do
+                        texto.<br>Exemplo:
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        p {
+                            font-family: Arial, sans-serif;
+                            font-size: 16px;
+                            text-align: center;
+                            color: #333;
+                        }
+                      </pre>
+                    </div>
+                    <p class="post-box-paragrafos">Lembre-se, você pode explorar as inumeras possibilidades de
+                        personalização do CSS, não se limite à apenas comandos simples.
+                    </p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="6">
+                    <h3 id="imagens">Margem e Preenchimento (Margin e Padding)</h3>
+                    <p class="post-box-paragrafos">Margin: espaço externo, fora do elemento.<br>
+                        Padding: espaço interno, entre o conteúdo e a borda.<br>Exemplo:
+                    <div class="demonstracaoTags">
+                      <pre class="estruturaTags">
+                        div {
+                            margin: 20px;
+                            padding: 10px;
+                        }</pre>
+                    </div>
+                    <p class="post-box-paragrafos">Bastante utilizado para dar um espaço entre conteúdos e organizar o
+                        site.
+                    </p>
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="7">
+                    <h3 id="links">Bordas</h3>
+                    <p class="post-box-paragrafos">O CSS permite personalizar bordas com cor, espressura, estilo e até
+                        arredondar.<br>
+                        Exemplo:</p>
+                    <div class="demonstracaoTags">
+                   <pre class="estruturaTags">
+                        div {
+                            border: 2px solid green;
+                            border-radius: 10px;
+                        }</pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="8">
+                    <h3 id="comment">Background</h3>
+                    <p class="post-box-paragrafos">Define o plano de fundo de um elemento. <br>
+                    Você pode usar cores e imagens: <br>
+                    Exemplo:</p>
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        body {
+                            background-color: #f2f2f2;
+                            background-image: url('imagem.jpg');
+                        }</pre>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="rightbar">
+            <div class="numerador-pai">
+                <a href="#teoria"><h1 class="numerador">1</h1></a>
+                <a href="#onde-escrever"><h1 class="numerador">2</h1></a>
+                <a href="#estrutura"><h1 class="numerador">3</h1></a>
+                <a href="#tags"><h1 class="numerador">4</h1></a>
+                <a href="#atributos"><h1 class="numerador">5</h1></a>
+                <a href="#imagens"><h1 class="numerador">6</h1></a>
+                <a href="#links"><h1 class="numerador">7</h1></a>
+                <a href="#comment"><h1 class="numerador">8</h1></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

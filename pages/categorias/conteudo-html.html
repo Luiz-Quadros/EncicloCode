@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="../../assets/css/conteudo-html.css">
+    <link rel="icon" href="../../assets/img/favicon.svg">
+
+    <title>EncicloCode </title>
+
+</head> 
+
+<body>
+    <header>
+        <h1><a href="../../index.html">EncicloCode</a></h1>
+        <nav>
+            <a href="../explorar/introducao.html" class="menu-abas"> Explorar</a>
+            <a href="../categorias/conteudo-html.html" class="menu-abas"> Categorias</a>
+            <a href="../comunidade/comunidade-html.html" class="menu-abas"> Comunidades</a>
+        </nav>
+        <div class="search">
+            <img src="../../assets/img/pesquisar-lupa.svg" alt="icone-lupa" class="lupa"><input type="text"
+                placeholder="Pesquisar">
+        </div>
+        <img src="../../assets/img/perfil.svg" alt="icone-usuario" style="width: 50px; height: 50px;">
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="pag-text"><img src="../../assets/img/pagina-inicial.svg" alt="Página Inicial" class="home"> <a
+                    href="../../index.html"><span class="pag-inicial"> Página Inicial </span></a> </div>
+            <hr>
+            <h4> Linguagens</h4>
+            <a href="../categorias/conteudo-html.html">
+                <div class="selected-text"><img src="../../assets/img/html.svg" alt="HTML"> HTML</div>
+            </a>
+            <a href="../categorias/conteudo-css.html">
+                <div class="menu-item"><img src="../../assets/img/css.svg" alt="CSS"> CSS</div>
+            </a>
+            <a href="../categorias/conteudo-javascript.html">
+                <div class="menu-item"><img src="../../assets/img/js.svg" alt="JavaScript"> JavaScript</div>
+            </a>
+            <a href="../categorias/conteudo-python.html">
+                <div class="menu-item"><img src="../../assets/img/python.svg" alt="Python"> Python</div>
+            </a>
+
+            <hr>
+            <h4>Atividade</h4>
+            <a href="../sidebar/minhas-postagens.html">
+                <div class="menu-item"><img src="../../assets/img/postagens.svg" alt="Minhas Postagens"> Minhas
+                    Postagens</div>
+            </a>
+            <a href="../sidebar/favoritos.html">
+                <div class="menu-item"><img src="../../assets/img/favorito.svg" alt="Favoritos"> Favoritos</div>
+            </a>
+            <hr>
+            <h4> Informações Legais</h4>
+            <a href="../../index.html#sobre">
+                <div class="menu-item"><img src="../../assets/img/sobre.svg" alt="Sobre"> Sobre</div>
+            </a>
+            <a href="../../index.html#contato">
+                <div class="menu-item"><img src="../../assets/img/contato.svg" alt="Contato"> Contato</div>
+            </a>
+            <a href="#">
+                <div class="menu-item"><img src="../../assets/img/politica-de-privacidade.svg"
+                        alt="Política de Privacidade"> Política de Privacidade</div>
+            </a>
+            <a href="#">
+                <div class="menu-item"><img src="../../assets/img/termos.svg" alt="Termos de Uso"> Termos de Uso</div>
+            </a>
+            <a href="../sidebar/faq.html">
+                <div class="menu-item"><img src="../../assets/img/faq.svg" alt="FAQ"> FAQ</div>
+            </a>
+        </div>
+
+        <main>
+            <div class="post-box-pai">
+                <div class="post-box" data-num="1">
+                    <h3 id="teoria">Teoria do HTML</h3>
+                    <p class="post-box-paragrafos">O HTML permite você criar o seu próprio Web Site. <br>
+                        Também é conhecido por ser fácil de se aprender entre todo tipo de programador. <br>
+                        Sendo um ótimo lugar para começar na programação caso seja um iniciante. <br>
+                        Abaixo estão alguns vídeos introdutórios para o HTML, recomendados por nós. <br>
+                    </p>
+                    <div class="recomendados-iframes">
+                    <iframe width="330" height="200" src="https://www.youtube.com/embed/4dQtz1PpY9A?si=EzA5r7txBVHbj-Ov" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="recomendados-iframes2"></iframe>
+                    <iframe width="330" height="200" src="https://www.youtube.com/embed/Fhy-5CtVkiM?si=4IGZ7OETn4pmPGjm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="recomendados-iframes2"></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="2">
+                    <h3 id="onde-escrever">Onde posso escrever um código HTML?</h3>
+                    <p class="post-box-paragrafos">Existe diversos lugares onde se pode começar, mas a principal IDE recomendada é o VisualStudio
+                        Code.
+                        Você pode instalar através do site oficial, seguindo esse link: <a
+                            href="https://code.visualstudio.com/" class="link-vscode">https://code.visualstudio.com/</a>
+                    </p>
+                    <div class="img-py">
+                        <img src="../../assets/img/html1.svg" alt="python" class="img-python">
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="3">
+                    <h3 id="estrutura">Estrutura Básica do HTML</h3>
+                    <p class="post-box-paragrafos">Tudo começa com a declaração <span class="tags">&lt;!DOCTYPE html&gt;</span> e depois as tags principais: <br>
+                        <span class="tags">&lt;html&gt;</span>, <span class="tags">&lt;head&gt;</span> e <span class="tags">&lt;body&gt;</span>. Outras tags importantes podem ser usadas também <br> 
+                        para o desenvolvimento do site. <br>
+                        O conteúdo visível da página sempre fica dentro de <span class="tags">&lt;body&gt;</span>, enquanto as <br>
+                        informações internas (como título e links de estilo) ficam dentro de<span class="tags">&lt;head&gt;</span>.
+                    </p>
+                    
+                    <div class="container-cinza3">
+                        <pre class="estruturaBasicaHTML">
+                        &lt;!DOCTYPE html&gt;
+
+                        &lt;html lang="pt-br"&gt;
+
+                        &lt;head&gt;
+                            &lt;meta charset="UTF-8"&gt;
+                            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                            &lt;title&gt; Nome do Website &lt;/title&gt;
+                        &lt;/head&gt;
+
+                        &lt;body&gt;
+                        
+                        &lt;/body&gt;
+                        &lt;/html&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="4">
+                    <h3 id="tags">Tags do HTML</h3>
+                    <p class="post-box-paragrafos">As tags são os blocos de construção do HTML. <br>
+                    Elas indicam ao navegador o que cada parte do conteúdo representa. <br>
+                    Por exemplo, <span class="tags">&lt;p&gt;</span> define parágrafos, <span class="tags">&lt;h1&gt;</span> a <span class="tags">&lt;h6&gt;</span> definem títulos, e <span class="tags">&lt;a&gt;</span> cria links. <br>
+                    A maioria das tags tem abertura e fechamento: <span class="tags">&lt;p&gt;</span> texto <span class="tags">&lt;/p&gt;</span>.</p>
+
+                    <div class="demonstracaoTags">
+                        <pre class="estruturaTags">
+                        &lt;body&gt;
+                            &lt;h1&gt;Título&lt;/h1&gt;
+
+                            &lt;p&gt;Parágrafo&lt;/p&gt;
+
+                            &lt;a href="https://www.google.com/"&gt; Link &lt;/a&gt;
+                        &lt;/body&gt;
+                        </pre>
+
+                        <div class="demonstracaoTags2">
+                            <h1>Título</h1>
+
+                            <p>Parágrafo</p>
+
+                            <a href="https://www.google.com/">Link</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="5">
+                    <h3 id="atributos">Atributos do HTML</h3>
+                    <p class="post-box-paragrafos">Os atributos fornecem informações extras sobre uma tag. <br>
+                    Eles aparecem dentro da tag de abertura e seguem o formato atributo="valor". <br>
+                    Por exemplo: <span class="tags">&lt;img src="/imagem.jpg" alt="Descrição da imagem"&gt;</span>. <br>
+                    No exemplo conseguimos ver um desses atributos, qual seria o [alt=”] <br>
+                    Os atributos ajudam a controlar o comportamento ou a aparência dos elementos.</p>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="6">
+                    <h3 id="imagens">Imagens no HTML</h3>
+                    <p class="post-box-paragrafos">As imagens são inseridas com a tag <span class="tags">&lt;img&gt;</span>. <br>
+                    Ela é autofechada, e usa atributos como src (origem) e alt (descrição). <br>
+                    Exemplo: <span class="tags">&lt;img src="foto.jpg" alt="Minha foto de perfil"&gt;</span> <br>
+                    O texto de <span class="tags">&lt;alt&gt;</span> aparece caso a imagem não carregue, <br> 
+                    por não ter o caminho correto ou outro problema.</p>
+
+                    <div class="demonstracaoImgs">
+                        <div class="img-exemplo">
+                        <p class="tag-img-tipo1">&lt;img src="flores.png" alt="flores"&gt;</p>
+                        <img src="../../assets/img/img - conteudo-html/flores.png" class="tag-img-tipo2">
+                        </div>
+                        <div class="img-exemplo">
+                        <p class="tag-img-tipo1">&lt;img src="fllores.png" alt="flores"&gt;</p>
+                        <img src="#" alt="Flores" class="tag-img-tipo2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="7">
+                    <h3 id="links">Links no HTML</h3>
+                    <p class="post-box-paragrafos">Os links são criados com a tag <span class="tags">&lt;a&gt;</span>. <br>
+                    O atributo principal é href, que define o destino do link. <br>
+                    Exemplo: <span class="tags">&lt;a href="https://www.exemplo.com"&gt;Visite o site&lt;/a&gt;</span></p>
+                
+                    <div class="demonstracaoLinks">
+                        <div class="topo-link">
+                        <pre class="link-img1">
+&lt;body&gt;
+    &lt;a href="https://www.google.com/"&gt; Visite o site &lt;/a&gt;
+&lt;/body&gt;
+                        </pre>
+                        </div>
+
+                        <div class="inferior-link">
+                          <a href="https://www.google.com" class="link-exLink">Visite o site</a>
+                          <div class="linha-link-horizontal"></div>
+                          <img src="../../assets/img/img - conteudo-html/links3.png" class="link-img3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box-pai">
+                <div class="post-box" data-num="8">
+                    <h3 id="comment">Comentários no HTML</h3>
+                    <p class="post-box-paragrafos">Comentários servem para deixar observações <br>
+                    dentro do código sem afetar o resultado visual. <br>
+                    Eles são muito úteis para lembrar o que certas partes fazem. <br>
+                    A sintaxe é: <span class="tags">&lt;!-- Isso é um comentário --&gt;</span>.</p>
+                
+                    <div class="comentario-explicacao">
+                        <pre class="estruturaComentarios">
+                        &lt;body</span>&gt;
+                            &lt;h1&gt;Título&lt;/h1&gt;
+                            &lt;!--Isso não é lido pelo navegador--&gt;</span>
+                            &lt;p&gt;Texto para auxiliar&lt;/p&gt;
+                        &lt;/body&gt;
+                        </pre>
+                        <div class="resultado-comentario">
+                            <h1>Título</h1>
+                            <!--Isso não é lido pelo navegador-->
+                            <p>Texto para auxiliar</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+
+        <div class="rightbar">
+            <div class="numerador-pai">
+                <a href="#teoria"><h1 class="numerador">1</h1></a>
+                <a href="#onde-escrever"><h1 class="numerador">2</h1></a>
+                <a href="#estrutura"><h1 class="numerador">3</h1></a>
+                <a href="#tags"><h1 class="numerador">4</h1></a>
+                <a href="#atributos"><h1 class="numerador">5</h1></a>
+                <a href="#imagens"><h1 class="numerador">6</h1></a>
+                <a href="#links"><h1 class="numerador">7</h1></a>
+                <a href="#comment"><h1 class="numerador">8</h1></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

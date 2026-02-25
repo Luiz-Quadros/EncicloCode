@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="../../assets/css/comunidade-html.css">
+    <link rel="icon" href="../../assets/img/favicon.svg">
+
+    <title>EncicloCode </title>
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="../../index.html">EncicloCode</a></h1>
+        <nav>
+            <a href="../explorar/introducao.html" class="menu-abas"> Explorar</a>
+            <a href="../categorias/conteudo-html.html" class="menu-abas"> Categorias</a>
+            <a href="../comunidade/comunidade-html.html" class="menu-abas"> Comunidades</a>
+        </nav>
+        <div class="search">
+            <img src="../../assets/img/pesquisar-lupa.svg" alt="icone-lupa" class="lupa"><input type="text"
+                placeholder="Pesquisar">
+        </div>
+        <div class="containerPaiPerfil">
+        <img src="../../assets/img/perfil.svg" alt="icone-usuario" style="width: 50px; height: 50px;" class="perfilIcon">
+
+        <div class="dropDrown">
+    
+            <section class="sectionDropDrown">
+                <h3 class="section-title">Perfil</h3>
+                <ul>
+                    <li><a href="#">Visualizar perfil</a></li>
+                    <li><a href="#">Postagens</a></li>
+                    <li><a href="#">Favoritos</a></li>
+                    <li><a href="#">Aparência</a></li>
+                </ul>
+            </section>
+    
+            <section class="sectionDropDrown">
+                <h3 class="section-title">Conta e Segurança</h3>
+                <ul>
+                    <li><a href="#">Alterar senha</a></li>
+                    <li><a href="#">Alterar e-mail</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                </ul>
+            </section>
+    
+            <section class="sectionDropDrown">
+                <h3 class="section-title">Suporte</h3>
+                <ul>
+                    <li><a href="#">Feedbacks</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                </ul>
+            </section>
+    
+            <section class="actions">
+                <h3 class="section-title">Conta</h3>
+                <ul>
+                    <li><a href="#">Sair</a></li>
+                    <li><a href="#" class="action-excluir">Excluir Conta</a></li>
+                </ul>
+            </section>
+        </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="pag-text"><img src="../../assets/img/pagina-inicial.svg" alt="Página Inicial" class="home"> <a
+                    href="../../index.html"><span class="pag-inicial"> Página Inicial </span></a> </div>
+            <hr>
+            <h4> Comunidades</h4>
+            <a href="../comunidade/comunidade-html.html">
+                <div class="html-text"><img src="../../assets/img/html.svg" alt="HTML"> HTML</div>
+            </a>
+            <a href="../comunidade/comunidade-css.html">
+                <div class="menu-item"><img src="../../assets/img/css.svg" alt="CSS"> CSS</div>
+            </a>
+            <a href="../comunidade/comunidade-javascript.html">
+                <div class="menu-item"><img src="../../assets/img/js.svg" alt="JavaScript"> JavaScript</div>
+            </a>
+            <a href="../comunidade/comunidade-python.html">
+                <div class="menu-item"><img src="../../assets/img/python.svg" alt="Python"> Python</div>
+            </a>
+
+            <hr>
+            <h4> Atividade</h4>
+            <a href="../sidebar/minhas-postagens.html">
+                <div class="menu-item"><img src="../../assets/img/postagens.svg" alt="Minhas Postagens"> Minhas
+                    Postagens</div>
+            </a>
+            <a href="../sidebar/favoritos.html">
+                <div class="menu-item"><img src="../../assets/img/favorito.svg" alt="Favoritos"> Favoritos</div>
+            </a>
+            <hr>
+            <h4> Informações Legais</h4>
+            <a href="../../index.html#sobre">
+                <div class="menu-item"><img src="../../assets/img/sobre.svg" alt="Sobre"> Sobre</div>
+            </a>
+            <a href="../../index.html#contato">
+                <div class="menu-item"><img src="../../assets/img/contato.svg" alt="Contato"> Contato</div>
+            </a>
+            <a href="#">
+                <div class="menu-item"><img src="../../assets/img/politica-de-privacidade.svg"
+                        alt="Política de Privacidade"> Política de Privacidade</div>
+            </a>
+            <a href="#">
+                <div class="menu-item"><img src="../../assets/img/termos.svg" alt="Termos de Uso"> Termos de Uso</div>
+            </a>
+            <a href="../sidebar/faq.html">
+                <div class="menu-item"><img src="../../assets/img/faq.svg" alt="FAQ"> FAQ</div>
+            </a>
+        </div>
+
+        <main>
+            <div class="postagem-pai">
+                <div class="postagem" id="minhaPostagem">
+                    <div class="header-compartilhar">
+                        <input type="text" placeholder="Escreva o que gostaria de compartilhar" class="compartilhar">
+                        <div class="toggle-btn" id="toggleBtn"><img src="../../assets/img/seta-cinza.svg"></div>
+                    </div>
+                    <div class="content">
+                        <textarea placeholder="Digite seu comentário aqui..."></textarea>
+                        <div class="post-comment-btns">
+                            <label for="fileInput">
+                                <img class="exportar" src="../../assets/img/add-file.svg" alt="exportar arquivos">
+                            </label>
+                            <input type="file" id="fileInput" style="display: none;">
+
+                            <button id="btnEnviar">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box">
+                <h3><img src="../../assets/img/user-preto.svg" class="img-user"> Lucas08 • 5 horas atrás</h3>
+                <b>Algum canal de estudo sobre HTML para recomendar?</b>
+                <p>Olá, alguém poderia me recomendar canais de html além do que esse site me oferece? Quero explorar um
+                    pouco
+                    mais os canais de estudos.</p>
+                <div class="span">
+                    <div class="btt-left">
+                        <span> <img class="botaoCurtida" src="../../assets/img/curtida.svg" alt="curtida"> 6 </span>
+                        <span> <img src="../../assets/img/comentario.svg" alt="comentario"> 2 </span>
+                    </div>
+                    <div class="btt-right">
+                        <span> <img class="estrelaVazia" src="../../assets/img/favorito.svg" alt="favorito"></span>
+                        <span> <img src="../../assets/img/reticencias.svg" alt="reticencias"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box">
+                <h3><img src="../../assets/img/user-preto.svg" class="img-user"> VagnerDEV • 8 horas atrás</h3>
+                <b>Diferença entre &lt;div&gt; e &lt;section&gt;?</b>
+                <p>Tô começando a estudar HTML e vi que muita gente usa &lt;section&gt; no lugar de &lt;div&gt;. Quando
+                    devo usar cada uma? Faz diferença real no site?</p>
+                <div class="span">
+                    <div class="btt-left">
+                        <span> <img class="botaoCurtida" src="../../assets/img/curtida.svg" alt="curtida"> 3 </span>
+                        <span> <img src="../../assets/img/comentario.svg" alt="comentario"> 1 </span>
+                    </div>
+                    <div class="btt-right">
+                        <span> <img class="estrelaVazia" src="../../assets/img/favorito.svg" alt="favorito"></span>
+                        <span> <img src="../../assets/img/reticencias.svg" alt="reticencias"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box">
+                <h3><img src="../../assets/img/user-preto.svg" class="img-user"> Xilitozinho • 17 horas atrás</h3>
+                <b>Como centralizar um texto com HTML puro?</b>
+                <p>Tentei usar a tag &lt;center&gt; mas falaram que ela é antiga. Existe outra forma de centralizar só
+                    com HTML ou precisa de CSS?</p>
+                <div class="span">
+                    <div class="btt-left">
+                        <span> <img class="botaoCurtida" src="../../assets/img/curtida.svg" alt="curtida"> 14 </span>
+                        <span> <img src="../../assets/img/comentario.svg" alt="comentario"> 3 </span>
+                    </div>
+                    <div class="btt-right">
+                        <span> <img class="estrelaVazia" src="../../assets/img/favorito.svg" alt="favorito"></span>
+                        <span> <img src="../../assets/img/reticencias.svg" alt="reticencias"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box">
+                <h3><img src="../../assets/img/user-preto.svg" class="img-user"> Usuário • 1 dia atrás • Editado</h3>
+                <b>Como estudar/treinar responsividade?</b>
+                <p>Tava pensando em começar a estudar responsividade para mobile, alguma ideia de como estudar/treinar
+                    isso ou até algo que facilite?</p>
+                <div class="span">
+                    <div class="btt-left">
+                        <span> <img class="bttzin" src="../../assets/img/curtida.svg" alt="curtida"> 10 </span>
+                        <span> <img class="bttzin" src="../../assets/img/comentario.svg" alt="comentario"> 2 </span>
+                    </div>
+                    <div class="btt-right">
+                        <span> <img class="bttzin" src="../../assets/img/lapis.svg" alt="editar"></span>
+                        <span> <img class="bttzin" src="../../assets/img/reticencias.svg" alt="reticencias"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box">
+                <h3><img src="../../assets/img/user-preto.svg" class="img-user"> Gaby_exz • 1 dia atrás</h3>
+                <b>Poderiam avaliar essa parte de um código HTML e me falarem formas de organizar?</b>
+                <p>Oi, estou tendo alguns problemas em questão à organização dessa parte do meu código HTML, e talvez
+                    até esteja acontecendo um bug nessa parte, alguém para me ajudar?</p>
+                <div class="code-box">
+                    &lt;div class="classificacao"&gt;<br>
+                    &lt;h1&gt; Classificação &lt;/h1&gt; &lt;h2&gt; Baixo &lt;/h2&gt; &lt;h2&gt; Médio &lt;/h2&gt;<br>
+                    &lt;h2&gt; Alto &lt;/h3&gt;<br>
+                    &lt;div class="cidades"&gt;<br>
+                    &lt;h2&gt;Classificação de cidades que geram muita emissão de poluição&lt;/h2&gt;<br>
+                    &lt;h2&gt;São Paulo&lt;/h2&gt;<br>
+                    ...
+                </div>
+                <div class="span">
+                    <div class="btt-left">
+                        <span> <img class="botaoCurtida" src="../../assets/img/curtida.svg" alt="curtida"> 22 </span>
+                        <span> <img src="../../assets/img/comentario.svg" alt="comentario"> 3 </span>
+                    </div>
+                    <div class="btt-right">
+                        <span> <img class="estrelaVazia" src="../../assets/img/favorito.svg" alt="favorito"></span>
+                        <span> <img src="../../assets/img/reticencias.svg" alt="reticencias"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box">
+                <h3><img src="../../assets/img/user-preto.svg" class="img-user"> Martim.kj • 3 dias atrás</h3>
+                <b>O que são as meta tags no &lt;head&gt;?</b>
+                <p>Tentei usar a tag &lt;center&gt; mas falaram que ela é antiga. Existe outra forma de centralizar só
+                    com HTML ou precisa de CSS?</p>
+                <div class="span">
+                    <div class="btt-left">
+                        <span> <img class="botaoCurtida" src="../../assets/img/curtida.svg" alt="curtida"> 17 </span>
+                        <span> <img src="../../assets/img/comentario.svg" alt="comentario"> 2 </span>
+                    </div>
+                    <div class="btt-right">
+                        <span> <img class="estrelaVazia" src="../../assets/img/favorito.svg" alt="favorito"></span>
+                        <span> <img src="../../assets/img/reticencias.svg" alt="reticencias"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-box">
+                <h3><img src="../../assets/img/user-preto.svg" class="img-user"> Usuário • 3 dia atrás</h3>
+                <b>Alguém quer fazer um projeto?</b>
+                <p>Estou reunindo uma equipe para desenvolver um site, qual darei mais detalhes quando o grupo estiver
+                    formado,
+                    é para apenas aprender mais sobre programação, caso conseguirmos uma grande equipe vamos dividir.
+                    Vlw</p>
+                <div class="span">
+                    <div class="btt-left">
+                        <span> <img class="bttzin" src="../../assets/img/curtida.svg" alt="curtida"> 17 </span>
+                        <span> <img class="bttzin" src="../../assets/img/comentario.svg" alt="comentario"> 3 </span>
+                    </div>
+                    <div class="btt-right">
+                        <span> <img class="bttzin" src="../../assets/img/lapis.svg" alt="editar"></span>
+                        <span> <img class="bttzin" src="../../assets/img/reticencias.svg" alt="reticencias"></span>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="rightbar">
+            <h4><img src="../../assets/img/em-alta.svg" class="em-alta"> Em alta</h4>
+            <div class="menu-item"><img src="../../assets/img/user-preto.svg"> Alguma ideia de como estruturar um código
+                html?</div>
+            <div class="menu-item"><img src="../../assets/img/user-preto.svg"> Como linkar CSS no HTML?</div>
+        </div>
+    </div>
+
+    <div class="center">
+        <div id="conteudoEnviar">
+            <p style="text-align: center;">Compartilhando...</p>
+            <div class="loader loader--style7">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20%" height="20%"
+                    viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                    <rect x="0" y="0" width="4" height="20" fill="#333">
+                        <animate attributeName="opacity" attributeType="XML" values="1; .2; 1" begin="0s" dur="0.6s"
+                            repeatCount="indefinite" />
+                    </rect>
+                    <rect x="7" y="0" width="4" height="20" fill="#333">
+                        <animate attributeName="opacity" attributeType="XML" values="1; .2; 1" begin="0.2s" dur="0.6s"
+                            repeatCount="indefinite" />
+                    </rect>
+                    <rect x="14" y="0" width="4" height="20" fill="#333">
+                        <animate attributeName="opacity" attributeType="XML" values="1; .2; 1" begin="0.4s" dur="0.6s"
+                            repeatCount="indefinite" />
+                    </rect>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/dropDown.js"></script>
+    <script src="../../assets/js/compartilhar.js"></script>
+    <script src="../../assets/js/curtir.js"></script>
+    <script src="../../assets/js/favoritar.js"></script>
+    <script src="../../assets/js/postar-abrir.js"></script>
+</body>
+
+</html>
